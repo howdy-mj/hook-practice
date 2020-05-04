@@ -1,24 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { createRef, useEffect } from 'react';
 import './App.css';
 
+function useClickOutside(fn) {
+  const ref = createRef();
+  const handleClick = (e) => {
+    if(!ref.current.contains(e.target)) {
+      fn();
+    }
+  }
+  useEffect( () => {
+    document.addEventListener("click", handleClick)
+  }, [handleClick])
+  return ref;
+}
+
 function App() {
+  const onClickOutside = () => {
+    console.log('outsidee')
+  }
+  const ref = useClickOutside(onClickOutside);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div ref={ref}>
+        <h1>Hello MJ</h1>
+        <h2>This should be a popup</h2>
+      </div>
+      <input type="text" />
     </div>
   );
 }
