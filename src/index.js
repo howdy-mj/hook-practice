@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Popup from './Popup';
+import Input from './Input';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Popup />
+    <Input />
   </React.StrictMode>,
   document.getElementById('root')
 );

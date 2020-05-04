@@ -1,5 +1,5 @@
 import React, { createRef, useEffect } from 'react';
-import './App.css';
+import './Popup.css';
 
 function useClickOutside(fn) {
   const ref = createRef();
@@ -14,7 +14,7 @@ function useClickOutside(fn) {
   return ref;
 }
 
-function App() {
+function Popup() {
   const onClickOutside = () => {
     console.log('outsidee')
   }
@@ -30,4 +30,4 @@ function App() {
   );
 }
 
-export default App;
+export default Popup;
