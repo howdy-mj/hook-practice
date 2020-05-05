@@ -1,15 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import Popup from './Popup';
-import Input from './Input';
-import PlusMinus from "./PlusMinus"
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import Popup from "./Popup/Popup";
+import InputPractice from "./InputPractice/InputPractice";
+import PlusMinus from "./PlusMinus/PlusMinus";
+import LectureInput from "./LectureInput";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Popup />
-    <Input />
-    <PlusMinus />
+    {/* <Popup /> */}
+    {/* <InputPractice /> */}
+    {/* <PlusMinus /> */}
+    <LectureInput />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
