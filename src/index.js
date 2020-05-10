@@ -16,6 +16,7 @@ import UseNetwork from "./UseNetwork";
 import UseScroll from "./UseScroll";
 import UseFullScreen from "./UseFullScreen";
 import UseNotification from "./UseNotification";
+import UseAxios from "./UseAxios";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -33,7 +34,8 @@ ReactDOM.render(
     {/* <UseNetwork /> */}
     {/* <UseScroll /> */}
     {/* <UseFullScreen /> */}
-    <UseNotification />
+    {/* <UseNotification /> */}
+    <UseAxios />
   </React.StrictMode>,
   document.getElementById("root")
 );
