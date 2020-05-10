@@ -8,6 +8,9 @@ import UseInput from "./UseInput";
 import UseEffect from "./UseEffect";
 import UseTitle from "./UseTitle";
 import UseClick from "./UseClick";
+import UseConfirm from "./UseConfirm";
+import UsePreventLeave from "./UsePreventLeave";
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,7 +20,9 @@ ReactDOM.render(
     {/* <UseInput /> */}
     {/* <UseEffect /> */}
     {/* <UseTitle /> */}
-    <UseClick />
+    {/* <UseClick /> */}
+    <UseConfirm />
+    <UsePreventLeave />
   </React.StrictMode>,
   document.getElementById("root")
 );
