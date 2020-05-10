@@ -7,6 +7,7 @@ import PlusMinus from "./PlusMinus/PlusMinus";
 import UseInput from "./UseInput";
 import UseEffect from "./UseEffect";
 import UseTitle from "./UseTitle";
+import UseClick from "./UseClick";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,7 +16,8 @@ ReactDOM.render(
     {/* <PlusMinus /> */}
     {/* <UseInput /> */}
     {/* <UseEffect /> */}
-    <UseTitle />
+    {/* <UseTitle /> */}
+    <UseClick />
   </React.StrictMode>,
   document.getElementById("root")
 );
