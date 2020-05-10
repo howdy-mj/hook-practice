@@ -21,8 +21,8 @@ ReactDOM.render(
     {/* <UseEffect /> */}
     {/* <UseTitle /> */}
     {/* <UseClick /> */}
-    <UseConfirm />
-    <UsePreventLeave />
+    {/* <UseConfirm /> */}
+    {/* <UsePreventLeave /> */}
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -27,6 +27,7 @@ const LectureInput = () => {
   return (
     <div className='InputPractice'>
       <h1>Pratice useTabs</h1>
+      <p>Section1, Section2 선택하면 아래 내용 보여주기</p>
       {content.map((section, index) => (
         <button
           onClick={() => {

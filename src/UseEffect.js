@@ -8,6 +8,7 @@ const LectureuseEffect = () => {
   return (
     <div className='LectureuseEffect'>
       <h1>useEffect</h1>
+      <p>오른쪽 왼쪽 버튼이 서로 다른 number +1 하기</p>
       <button onClick={() => setNumber(number + 1)}>{number}</button>
       <button onClick={() => setANumber(aNumber + 1)}>{aNumber}</button>
       
