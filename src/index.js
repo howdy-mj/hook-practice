@@ -10,6 +10,7 @@ import UseTitle from "./UseTitle";
 import UseClick from "./UseClick";
 import UseConfirm from "./UseConfirm";
 import UsePreventLeave from "./UsePreventLeave";
+import UseBeforeLeave from "./UseBeforeLeave";
 
 
 ReactDOM.render(
@@ -23,6 +24,7 @@ ReactDOM.render(
     {/* <UseClick /> */}
     {/* <UseConfirm /> */}
     {/* <UsePreventLeave /> */}
+    <UseBeforeLeave />
   </React.StrictMode>,
   document.getElementById("root")
 );
