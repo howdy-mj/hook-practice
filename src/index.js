@@ -13,6 +13,8 @@ import UsePreventLeave from "./UsePreventLeave";
 import UseBeforeLeave from "./UseBeforeLeave";
 import UseFadeIn from "./UseFadeIn";
 import UseNetwork from "./UseNetwork";
+import UseScroll from "./UseScroll";
+import UseFullScreen from "./UseFullScreen";
 
 
 ReactDOM.render(
@@ -27,8 +29,10 @@ ReactDOM.render(
     {/* <UseConfirm /> */}
     {/* <UsePreventLeave /> */}
     {/* <UseBeforeLeave /> */}
-    <UseFadeIn />
-    <UseNetwork />
+    {/* <UseFadeIn /> */}
+    {/* <UseNetwork /> */}
+    {/* <UseScroll /> */}
+    <UseFullScreen />
   </React.StrictMode>,
   document.getElementById("root")
 );
