@@ -11,6 +11,8 @@ import UseClick from "./UseClick";
 import UseConfirm from "./UseConfirm";
 import UsePreventLeave from "./UsePreventLeave";
 import UseBeforeLeave from "./UseBeforeLeave";
+import UseFadeIn from "./UseFadeIn";
+import UseNetwork from "./UseNetwork";
 
 
 ReactDOM.render(
@@ -24,7 +26,9 @@ ReactDOM.render(
     {/* <UseClick /> */}
     {/* <UseConfirm /> */}
     {/* <UsePreventLeave /> */}
-    <UseBeforeLeave />
+    {/* <UseBeforeLeave /> */}
+    <UseFadeIn />
+    <UseNetwork />
   </React.StrictMode>,
   document.getElementById("root")
 );
