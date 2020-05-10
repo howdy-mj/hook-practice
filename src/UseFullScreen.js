@@ -35,6 +35,7 @@ const UseFullScreen = () => {
         <button onClick={exitFull}>Exit FullScreen</button>
       </div>
       <button onClick={triggerFull}>Make FullScreen</button>
+      <p>전체화면 만들기, 나가기</p>
     </div>
   );
 };
